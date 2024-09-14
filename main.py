@@ -42,7 +42,7 @@ while True:
 
             if first_request_data is None:
                 first_request_data = current_data_str
-                print_transaction_data(transactions, "获取到最近交易数据：")
+                print_transaction_data(transactions, "最近交易数据：")
             elif current_data_str != first_request_data:
                 print_transaction_data(transactions, "新交易：")
                 first_request_data = current_data_str
